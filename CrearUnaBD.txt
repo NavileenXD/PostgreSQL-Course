@@ -1,0 +1,13 @@
+-- Query Tool: muy util y utilizada para comandos y ejecución del mismo
+
+
+-- Crear una BD a partir de la Query Tool
+Create database NombreBD  -- Con este comando se crean las bases de datos
+-- Se debe dar al rayo para ejecutar el código 
+-- Si refrescamos la BD, podremos visualizar la BD NombreBD ya creado
+
+-- Crear una BD de forma gráfica
+-- 1. Seleccionamos la carpeta de bases de datos (Databases)
+-- 2. Opciones:
+--      2.1. Click derecho, Create, Database
+--      2.2. Object, Create, Database

@@ -1,0 +1,10 @@
+-- Se puede eliminar de dos formas
+
+-- Sobre la BD
+-- Click derecho, Delete
+
+-- Query Tool
+-- 1.Click derecho
+-- 2.Disconnect from database
+-- 3. Open Query Tool
+-- 4. Drop database if exists "nombrebd2"
