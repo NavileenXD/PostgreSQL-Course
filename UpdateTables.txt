@@ -1,0 +1,9 @@
+--Actualizar un registro
+
+--Si queremos actualizar un campo basandonos en un campo null se usa "is"
+update persona set cedula= '6975980' --se actualiza el campo cedula de la tabla persona con ese nuevo valor
+where cedula is null 
+
+--Si queremos actualizar un campo basandonos en un campo específico se usa "="
+update persona set nombre= 'Nadine', idpersona = 4 --se actualizan más de dos campos
+where cedula = '26838242'
