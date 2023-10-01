@@ -1,0 +1,12 @@
+-- Consultas - Select
+
+select * from persona --nos devuelve todo lo que contiene la tabla
+select (nombre, cedula) from persona -- Devuelve entre paréntesis los datos solicitados de la tabla persona
+select (nombre, cedula) as datos from persona -- lo mismo que lo anterior solo que el encabezado/alias de los datos solicitados tiene como nombre "datos"
+select (nombre, cedula) as Nombre, Cedula from persona -- Devuelven los mismos datos solicitados solo que en la primera columna van los datos (nombre, cedula) y en la otra columna solo salen los segundo datos.
+select (nombre) as Nombre, Cedula from persona --En la primera columna aparecen los nombres y en la segunda la cedula
+
+--Si se quiere consultar solo un dato en específico:
+select nombre from persona
+where idpersona = '2' 
+
