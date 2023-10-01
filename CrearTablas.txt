@@ -1,0 +1,16 @@
+-- Crear una tabla
+
+-- Query Tool
+
+create table persona (
+    idpersona int not null,  -- not  null se usa para indicar que ese campo nunca debe estar vacío
+    nombre varchar(20),
+    Cedula varchar(10)
+);  -- No olvidar el punto y coma
+
+
+-- Con click derecho
+-- 1. Create Table
+-- 2. En General se coloca el nombre de la tabla
+-- 3. En Columns:
+    --En Name va el nombre de la columna, en Data type el tipo, Lenght el tamaño y en Not Null si acepta campos vacíos o no
