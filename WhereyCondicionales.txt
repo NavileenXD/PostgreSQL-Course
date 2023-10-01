@@ -1,0 +1,28 @@
+-- Where y Condicionales
+
+--Para mostrar los resultados que coincidan con una condicion igual a la especificada
+
+select * from persona
+Where nombre = 'Nadine'
+
+--Para mostrar los resultados que sean diferentes a una condicion especificada
+
+select * from persona
+Where nombre != 'Nadine'
+
+-- Condicional mayor que
+
+select * from persona
+Where idpersona > 1
+
+-Condicional menor que
+
+select * from persona
+Where idpersona < 3
+
+--Tambien los menor o igual que <= y >= mayor o igual que
+
+--Con operadores logicos and y or 
+
+select * from persona
+Where idpersona < 3 and nombre = 'Nadine'
