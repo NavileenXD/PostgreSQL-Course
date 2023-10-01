@@ -1,0 +1,11 @@
+-- Insertar Datos a una tabla
+
+insert into persona values ('1', 'Nadine', '26838242');
+
+
+--En caso de querer ingresar solo algunos de los campos de la tabla:
+insert into persona (idpersona, nombre) values ('2', 'Maria');
+
+
+-- Para consultar
+select * from persona --esto devuelve lo que se encuentra almacenado dentro de la tabla que se le indique
