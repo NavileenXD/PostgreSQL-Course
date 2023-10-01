@@ -1,0 +1,10 @@
+-- Tipos de datos basicos en PostgreSQL
+
+-- boolean = true or false
+-- character(n) = cadena de caracteres de tamaño fijo n
+-- date = fecha sin hora
+-- Float = flotante
+-- Int, integer = numero entero
+-- decimal = numero exacto
+-- time = tiempo en horas, minutos, segundos, exacto
+-- varchar(n) = cadena de caracteres de tamaño variable
